@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+.wrap {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 150px;
+    flex-direction: column;
+    background-color: #EAEAEA;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+select {
+    border: none;
+    outline: none;
+    padding: 5px;
+    padding-right: 20px;
+    background-color: #EAEAEA;
+}
+
+.choosePhone {
+    display: flex;
+    align-items: center;
+}
+
+.headerItem {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Montserrat;
+    margin-right: 80px;
+    text-transform: uppercase;
+}
+
+.choosePhone img {
+    margin-right: 15px;
+    width: 15px;
+}
+
+.cartGroup {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.heartGroup {
+    display: flex;
+    align-items: center;
+}
+
+.cartGroup img {
+    width: 25px;
+}
+
+.heartGroup img {
+    width: 25px;
+}
+
+.counter {
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+    border-radius: 50%;
+    position: relative;
+    top: -10px;
+    left: -5px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.banner {
+    width: 100%;
+    height: 200px;
+    border-radius: 30px;
+    background-color: #101010;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: calc(10px + .5vw);
+    font-weight: 400;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.banner img {
+    width: 320px;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.phoneCases {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.phoneCasesGroup {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.card {
+    width: 300px;
+    height: auto;
+    padding: 20px 0;
+    box-shadow: 0 0 3px #999;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: #fff;
+    margin: 10px;
+}
+
+.card img {
+    width: 150px;
+}
+
+h5 {
+    width: 100%;
+    text-align: left;
+    color: #838383;
+    margin-bottom: 20px;
+}
+
+.products-group-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.products-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cardHeartContainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 20px;
+}
+
+.earPods_card {
+    flex: 0 0 25%
+}
+
+.earPods_card img:nth-child(1) {
+    width: 20px;
+}
+
+.earPods_card img:nth-child(2) {
+    width: 220px;
+}
+
+.cardName {
+    font-weight: 700;
+}
+
+.cardPrice {
+    color: #FFA542;
+    font-weight: 500;
+}
+
+.cart-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+    margin-top: 15px;
+}
+
+.rating-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.rating-wrapper .rating {
+    margin-left: 6px;
+    color: #838383;
+    font-weight: 500;
+}
+
+.star-icon {
+    color: #f4c13f;
+}
+
+.cart-icon {
+    cursor: pointer;
+    user-select: none;
+}
+
+.invisible {
+    display: none;
+}
+
+.cart {
+    position: fixed;
+    background-color: #c8c5c5;
+    left: 5%;
+    top: 10%;
+    width: 90%;
+    height: 80%;
+    border-radius: 10px;
+}
+
+#cart-link {
+    cursor: pointer;
+}
+
+.banner1 {
+    width: 90%;
+    height: 150px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    color: rgb(209, 209, 209);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: calc(10px + .5vw);
+    margin-top: 50px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    box-shadow: 0 0 3px #999;
+}
+
+.logo1 {
+    color: #101010;
+    font-size: x-small;
+    margin-left: 20%;
+
+}
+
+.logo2 {
+    font-size: x-small;
+    margin-left: 20%;
+    color: #3b3b3b;
+}
+
+.heart-base {
+    cursor: pointer;
+    user-select: none;
+}
+
+.heart-red {
+    color: red;
+}
+
+@media screen and (max-width: 900px) {
+    .wrap {
+        padding: 0 40px;
+    }
+
+    .heartGroup {
+        display: none;
+    }
+
+    .cartGroup {
+        display: none;
+    }
+
+    .choosePhone {
+        font-size: 14px;
+    }
+
+    .banner {
+        flex-direction: column;
+        justify-content: space-between;
+        height: auto;
+        padding-top: 20px;
+    }
+
+    .banner img {
+        position: relative;
+        top: 18px;
+    }
+
+    .phoneCasesGroup {
+        justify-content: center;
+    }
+}
